@@ -28,6 +28,8 @@ Q 版像素爱弥斯桌宠。以 Codex 为默认客户端，同时支持本地 C
 
 ### macOS 预编译应用
 
+直接下载：[v0.1.4 macOS Apple Silicon 安装包](https://github.com/zhaozhenxiong/Ameath_pet_mac/releases/download/v0.1.4/Aemeath-Codex-Pet-v0.1.4-macOS-arm64.zip)。解压后将 `Aemeath Codex Pet.app` 拖入「应用程序」或用户目录的 `Applications` 文件夹，双击启动。发布页提供 [SHA-256 校验文件](https://github.com/zhaozhenxiong/Ameath_pet_mac/releases/download/v0.1.4/SHA256SUMS)。
+
 `prebuilt/Aemeath Codex Pet.app` 为 Apple Silicon（arm64）版本，来自已安装的 `0.1.4` 应用包，可直接使用，无需安装 Rust 或 Node.js。Intel Mac 请从源码构建。
 
 ```bash
