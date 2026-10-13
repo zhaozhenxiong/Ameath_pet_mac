@@ -1,0 +1,81 @@
+{
+  "hooks": {
+    "SessionStart": [{
+      "matcher": "",
+      "hooks": [{
+        "type": "command",
+        "command": "\"/Applications/Aemeath Codex Pet.app/Contents/MacOS/aemeath-codex\" --provider-hook claude session-start"
+      }]
+    }],
+    "UserPromptSubmit": [{
+      "matcher": "",
+      "hooks": [{
+        "type": "command",
+        "command": "\"/Applications/Aemeath Codex Pet.app/Contents/MacOS/aemeath-codex\" --provider-hook claude user-prompt-submit"
+      }]
+    }],
+    "PreToolUse": [{
+      "matcher": "",
+      "hooks": [{
+        "type": "command",
+        "command": "\"/Applications/Aemeath Codex Pet.app/Contents/MacOS/aemeath-codex\" --provider-hook claude pre-tool-use"
+      }]
+    }],
+    "PostToolUse": [{
+      "matcher": "",
+      "hooks": [{
+        "type": "command",
+        "command": "\"/Applications/Aemeath Codex Pet.app/Contents/MacOS/aemeath-codex\" --provider-hook claude post-tool-use"
+      }]
+    }],
+    "PermissionRequest": [{
+      "matcher": "",
+      "hooks": [{
+        "type": "command",
+        "command": "\"/Applications/Aemeath Codex Pet.app/Contents/MacOS/aemeath-codex\" --provider-hook claude permission-request"
+      }]
+    }],
+    "PreCompact": [{
+      "matcher": "",
+      "hooks": [{
+        "type": "command",
+        "command": "\"/Applications/Aemeath Codex Pet.app/Contents/MacOS/aemeath-codex\" --provider-hook claude pre-compact"
+      }]
+    }],
+    "PostCompact": [{
+      "matcher": "",
+      "hooks": [{
+        "type": "command",
+        "command": "\"/Applications/Aemeath Codex Pet.app/Contents/MacOS/aemeath-codex\" --provider-hook claude post-compact"
+      }]
+    }],
+    "SubagentStart": [{
+      "matcher": "",
+      "hooks": [{
+        "type": "command",
+        "command": "\"/Applications/Aemeath Codex Pet.app/Contents/MacOS/aemeath-codex\" --provider-hook claude subagent-start"
+      }]
+    }],
+    "SubagentStop": [{
+      "matcher": "",
+      "hooks": [{
+        "type": "command",
+        "command": "\"/Applications/Aemeath Codex Pet.app/Contents/MacOS/aemeath-codex\" --provider-hook claude subagent-stop"
+      }]
+    }],
+    "Stop": [{
+      "matcher": "",
+      "hooks": [{
+        "type": "command",
+        "command": "\"/Applications/Aemeath Codex Pet.app/Contents/MacOS/aemeath-codex\" --provider-hook claude stop"
+      }]
+    }],
+    "SessionEnd": [{
+      "matcher": "",
+      "hooks": [{
+        "type": "command",
+        "command": "\"/Applications/Aemeath Codex Pet.app/Contents/MacOS/aemeath-codex\" --provider-hook claude session-end"
+      }]
+    }]
+  }
+}

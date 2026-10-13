@@ -1,0 +1,41 @@
+.DS_Store
+Thumbs.db
+
+*.tmp
+*.bak
+*.log
+
+.idea/
+.vscode/
+
+# Project-local agent skills are restored from skills-lock.json.
+.agents/skills/
+
+# Local release staging artifacts.
+.release/
+
+# Brainstorming visual companion artifacts.
+.superpowers/
+
+# Rust build artifacts
+src-tauri/target/
+
+# Tauri generated schemas
+src-tauri/gen/
+
+# npm
+node_modules/
+
+# Local settings (personal tokens, permissions)
+.claude/settings.local.json
+
+# Credentials and machine-local agent configuration
+.env
+.env.*
+!.env.example
+.codex/
+.claude/
+
+# Python caches
+__pycache__/
+*.py[cod]

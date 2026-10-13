@@ -1,0 +1,8 @@
+# Optional compatibility fallback for Codex versions without the Stop hook.
+# Replace the path before uncommenting.
+# notify = ["/Applications/Aemeath Codex Pet.app/Contents/MacOS/aemeath-codex", "--codex-notify"]
+
+# Merge this section into ~/.codex/config.toml.
+[mcp_servers.aemeath]
+url = "http://127.0.0.1:9528/mcp"
+startup_timeout_sec = 5

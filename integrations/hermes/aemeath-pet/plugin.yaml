@@ -1,0 +1,6 @@
+name: aemeath-pet
+label: Aemeath Pet
+version: 0.2.0
+kind: integration
+description: "Send Hermes Agent lifecycle events to the local Aemeath desktop pet."
+author: Aemeath Codex Pet
